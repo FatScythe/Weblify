@@ -1,0 +1,238 @@
+/*----Background------*/
+.bg-primary {
+	background: var(--blue);
+	color: #fff;
+}
+
+.bg-secondary {
+	background: var(--darkblue);
+	color: #fff;
+}
+
+.bg-white {
+	background: #fff;
+	color: var(--black);
+}
+
+
+/*----------image--------*/
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*-----Container-----*/
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+/*----flex-----*/
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+/*----------button---------*/
+.btn {
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: transparent;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	transform: scale(0.95);
+}
+
+/*----Grid-----*/
+.grid {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	height: 100%;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 2rem;
+}
+
+.grid-3 {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	height: 100%;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 1rem;
+}
+
+
+/* Text sizes */
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+/*Text-align*/
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+/*------Margin------*/
+.m-1 {
+	margin: 1.0rem;
+}
+
+.m-2 {
+	margin: 1.5rem;
+}
+
+.m-3 {
+	margin: 2.0rem;
+}
+
+.m-4 {
+	margin: 3rem;
+}
+
+.m-5 {
+	margin: 4rem;
+}
+
+/*------Margin-top and bottom------*/
+.my-1 {
+	margin: 1.0rem 0;
+}
+
+.my-2 {
+	margin: 1.5rem 0;
+}
+
+.my-3 {
+	margin: 2.0rem 0;
+}
+
+.my-4 {
+	margin: 3rem 0;
+}
+
+.my-5 {
+	margin: 4rem 0;
+}
+
+/*------Margin-left and right------*/
+.mx-1 {
+	margin: 0 1.0rem;
+}
+
+.mx-2 {
+	margin: 0 1.5rem;
+}
+
+.mx-3 {
+	margin: 0 2.0rem;
+}
+
+.mx-4 {
+	margin: 0 3rem;
+}
+
+.mx-5 {
+	margin: 0 4rem;
+}
+
+/*------Padding------*/
+.p-1 {
+	padding: 1.0rem;
+}
+
+.p-2 {
+	padding: 1.5rem;
+}
+
+.p-3 {
+	padding: 2.0rem;
+}
+
+.p-4 {
+	padding: 3rem;
+}
+
+.p-5 {
+	padding: 4rem;
+}
+
+/*------Padding-top and bottom------*/
+.py-1 {
+	padding: 1.0rem 0;
+}
+
+.py-2 {
+	padding: 1.5rem 0;
+}
+
+.py-3 {
+	padding: 2.0rem 0;
+}
+
+.py-4 {
+	padding: 3rem 0;
+}
+
+.py-5 {
+	padding: 4rem 0;
+}
+
+/*------Padding-left and right------*/
+.px-1 {
+	padding: 0 1.0rem;
+}
+
+.px-2 {
+	padding: 0 1.5rem;
+}
+
+.px-3 {
+	padding: 0 2.0rem;
+}
+
+.px-4 {
+	padding: 0 3rem;
+}
+
+.px-5 {
+	padding: 0 4rem;
+}
+
+
