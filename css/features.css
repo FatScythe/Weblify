@@ -189,7 +189,7 @@ nav ul li {
 	}
 
 	.function .container div:nth-child(2) {
-		grid-column: 
+		grid-column: 1; 
 	}
 }
 
