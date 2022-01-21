@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+	--blue:rgb(4,122,237);
+	--darkblue: rgb(0,34,64);
+	--black: #8C795F;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+header {
+	position: relative;
+}
+
+
+/*------------Navbar----------*/
+
+
+.navbar div nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+nav ul li {
+	position: relative;
+}
+
+.navbar nav ul li a::after {
+	content: "";
+	height: 2px;
+	border-radius: 3px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #fff;
+	width: 0;
+	transition: width 0.4s;
+}
+
+.navbar nav ul li a:hover::after {
+	width: 100%;
+}
+
+.navbar div nav ul li .short {
+	display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+	.navbar div nav ul li .short {
+		display: block;
+	}
+
+	.navbar div nav ul li .long {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.navbar div .flex {
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.navbar nav ul {
+		margin-top: 15px;
+		padding: 10px;
+    	background-color: rgba(0, 0, 0, 0.1);
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------FOOTER-------*/
+
+ footer {	
+	height: 30vh;
+ }
+
+ footer .container {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ }
+
+ footer div nav ul {
+ 	list-style: none;
+ }
+
+ footer div nav ul li {
+ 	padding-bottom: 15px;
+ }
+
+ footer div .icon .fa {
+ 	color: #fff;
+ 	font-size: 35px;
+ 	margin-left: 20px;
+ }
+
+ @media screen and (max-width: 768px) {
+ 	footer {
+ 		height: 50vh;
+ 	}
+
+ 	footer .container {
+ 		flex-direction: column;
+ 		align-items: flex-start;
+ 	}
+
+ 	footer div nav ul {
+ 		margin-top: 40px;
+ 	}
+
+ 	footer div .icon .fa {
+ 		margin-top: 40px;	
+ 	}
+ }
+
+  @media screen and (max-width: 500px) {
+ 	footer {
+ 		height: 60vh;
+ 	}
+
+ 	footer div .icon .fa {
+ 		font-size: 25px;
+ 	}
+ }

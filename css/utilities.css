@@ -31,6 +31,12 @@ a {
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+	.container {
+		width: 90%;
+	}	
+}
+
 /*----flex-----*/
 .flex {
 	display: flex;
@@ -236,3 +242,25 @@ a {
 }
 
 
+/*-----------ANIMATIONS-------------*/
+
+
+@keyframes SlideInFromRight {
+	from {transform: translateX(100%);}
+	to { transform: translateX(0); }
+}
+
+@keyframes SlideInFromLeft {
+	from {transform: translateX(-100%);}
+	to { transform: translateX(0); }
+}
+
+@keyframes SlideInFromBottom {
+	from {transform: translateY(100vh);}
+	to { transform: translateX(0); }
+}
+
+@keyframes SlideInFromTop {
+	from {transform: translateY(-100%);}
+	to { transform: translateX(0); }
+}
