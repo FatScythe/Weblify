@@ -93,7 +93,7 @@ nav ul li {
 /*----------------Deploy------------*/
 
 .deploy {
-	animation: SlideInFromLeft 0.4s ease-in-out;
+	animation: SlideInFromLeft 1s ease-in;
 	padding-top: 25px;
 }
 
@@ -104,7 +104,7 @@ nav ul li {
 
 .form {
 	position: relative;
-	animation: SlideInFromRight 0.4s ease-in-out;
+	animation: SlideInFromRight 1s ease-in;
 	z-index: 5;
 }
 
@@ -168,7 +168,7 @@ header::after {
 	/*----------------Deploy------------*/
 
 	.deploy {
-		animation: SlideInFromTop 0.4s ease-in-out;
+		animation: SlideInFromTop 1s ease-in;
 		text-align: center;
 		padding-top: 0;
 		padding-bottom: 40px;
@@ -177,7 +177,7 @@ header::after {
 	/*----------------Form------------*/
 
 	.form {
-		animation: SlideInFromBottom 0.4s ease-in-out;
+		animation: SlideInFromBottom 1s ease-in;
 	}
 	
 	div .form {
@@ -220,7 +220,7 @@ header::after {
 
 /*----------------Welcome---------------*/
 .welcome {
-	animation: SlideInFromBottom 0.8s ease;
+	animation: SlideInFromBottom 1s ease-in;
 }
 .welcome .container {
 	padding: 20px;
@@ -249,7 +249,7 @@ header::after {
 
 
 .welcome {
-	animation: SlideInFromLeft 0.8s ease;
+	animation: SlideInFromLeft 1s ease-in;
 }
 
 	.welcome .grid-3 {
