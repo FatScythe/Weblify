@@ -80,6 +80,10 @@ a {
 
 
 /* Text sizes */
+.tiny {
+	font-size: 13px;
+}
+
 .lead {
   font-size: 20px;
 }
