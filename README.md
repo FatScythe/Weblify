@@ -1,9 +1,7 @@
-# Project Title :
-
-## Weblify
+# Project Title : Weblify
 ___
 
-#link to the live website:
+# Link to the live website:
 [Weblify](https://weblifyhost.netlify.app/ "weblify live site")
 ___
 
