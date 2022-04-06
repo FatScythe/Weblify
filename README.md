@@ -1,40 +1,30 @@
-# Project Title : Weblify
+### Weblify
 ___
 
-# Link to the live website:
+#### Link to the live website:
 [Weblify](https://weblifyhost.netlify.app/ "weblify live site")
 ___
 
-# Description :
-
-## Weblify is a static web hosting platform, contains 3 pages
+#### Description : Weblify is a static web hosting platform, contains 3 pages, a working contact form and a beatiful sliding animation
  * Home
  * Features
  * Documentation
 ____
 
-## What it does ?
-
-### Merely a static webpage & it accepts form, so send me a message.
+#### Tech Used : Html, CSS, git, github, Netlify.
 ___
 
-# Tech Used :
+#### Design image :
 
-## Html, CSS, git, github, Netlify.
-___
+#### Desktop View
+![Weblify SS](design/DesktopView.png "Desktop View")
 
-# Design image :
+#### Tablet View
 
-## Desktop View
-![Weblify SS](design/DesktopView.png "Desktop View");
+![Weblify SS](design/TabletView.png "Tablet View")
 
-## Tablet View
+#### Mobile View
 
-![Weblify SS](design/TabletView.png "Tablet View");
+![Weblify SS](design/MobileView.png "Mobile View")
 
-## Mobile View
-
-![Weblify SS](design/MobileView.png "Mobile View");
-
-# Credits
-BradTraversy 
+#### Credits: BradTraversy 
